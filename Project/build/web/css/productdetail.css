@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 thg 10, 2024, 12:39:38
+    Author     : TRUNG
+*/
+.product-images .smallimage{
+    cursor: pointer;
+}
+
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Ẩn mũi tên trên trình duyệt WebKit (Chrome, Safari) */
+    margin: 0; /* Bỏ khoảng cách */
+}
+
+/* Ẩn mũi tên trên trình duyệt Firefox */
+.quantity-input {
+    -moz-appearance: textfield; /* Chuyển sang kiểu văn bản để ẩn mũi tên */
+    text-align: center;
+}
+.input-quantity
+{
+    width: 150px;
+}
+
+.addandbuy{
+    width: 180px;
+    margin-right: 10px;
+    height: 40px;
+}
+.addandbuy:hover
+{
+    opacity:0.8;
+}
+.otherimg
+{
+    width: 100%;
+    margin-top: 30px;
+}
+.btnex{
+    border: none; /* Không có viền */
+    background-color: transparent; /* Nền trong suốt để giống với nút mặc định */
+}

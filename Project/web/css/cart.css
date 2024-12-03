@@ -1,0 +1,16 @@
+.form-check-input:checked {
+    background-color: black; /* Màu nền khi checkbox được tick */
+    border-color: black; /* Màu viền */
+}
+
+/* Thay đổi màu sắc của checkbox khi được hover */
+.form-check-input:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+    border-color: #0056b3; /* Màu viền khi hover */
+}
+
+/* Tăng kích thước checkbox */
+.form-check-input {
+    width: 20px; /* Chiều rộng */
+    height: 20px; /* Chiều cao */
+}

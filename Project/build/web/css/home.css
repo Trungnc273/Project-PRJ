@@ -1,0 +1,101 @@
+h2{
+    margin-bottom: 10px;
+}
+.home .card {
+    overflow: hidden;
+}
+
+.home .card img {
+    transition: 0.2s;
+}
+
+.home .card img:hover {
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+.home .card .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+    width: 5%;
+
+}
+.carousel-control-prev {
+    transform: translateX(-45%);
+}
+.carousel-control-next {
+    transform: translateX(45%);
+}
+
+/*banner*/
+.banner .content
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8%;
+}
+.banner .content .left img,
+.banner .content .right img {
+    width: 100%;
+    display: block;
+}
+
+/* Điều chỉnh khoảng cách giữa 2 ảnh bên phải (trên và dưới) */
+.banner .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Đảm bảo ảnh trên và ảnh dưới có khoảng cách đều */
+    gap: 2%; /* Khoảng cách giữa ảnh trên và ảnh dưới */
+}
+.banner .content img
+{
+    width: 100%;
+}
+
+.topsell--button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.topsell--button button{
+    border: none;
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+
+.topsell--button button:hover
+{
+    background-color: darkred;
+}
+
+/*pop friends*/
+
+.popfriend .carousel-control-next,.popfriend .carousel-control-prev{
+    width: 27px;
+    height: 27px;
+    background-color: #777777;
+    filter: invert(0);
+}
+.popfriend .carousel-control-next
+{
+    transform: translateY(-275%);
+}
+.popfriend .carousel-control-prev
+{
+    transform: translateY(-275%) translateX(4550%);
+}
+.popfriend .carousel-control-next-icon,.popfriend .carousel-control-prev-icon{
+    width: 15px;
+    height: 15px;
+}
